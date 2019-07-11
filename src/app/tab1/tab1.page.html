@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar mode="ios">
+    <ion-title>
+      Recherche par code bar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="fixed">Code barre: </ion-label>
+    <ion-input type="number" [(ngModel)]="barcode"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="onLoadProduct()">Chercher</ion-button>
+</ion-content>
