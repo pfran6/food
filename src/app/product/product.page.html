@@ -12,7 +12,7 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content *ngIf="!erreur">
+<ion-content color="light" *ngIf="!erreur">
 
     <ion-item>
         <ion-label>
@@ -32,6 +32,6 @@
 
 </ion-content>
 
-<ion-content *ngIf="erreur">
+<ion-content color="light" *ngIf="erreur">
     <h2>Code barre <strong>{{ barcode }}</strong> introuvable!!</h2>
 </ion-content>
